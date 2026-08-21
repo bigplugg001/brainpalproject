@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnkerGames Dashboard</title>
+  <link rel="stylesheet" href="trending.css">
+</head>
+<body>
+
+  <!-- 1. NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="#">ANKER<span>GAMES</span></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">All Games</a></li>
+      <li><a href="#">Top</a></li>
+      <li><a href="#" class="active">Trending</a></li>
+      <li><a href="#">Genre</a></li>
+      <li><a href="#">Recent Updates</a></li>
+      <li><a href="#">Collections</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="btn-login">Log in</button>
+      <button class="btn-signup">Sign up</button>
+    </div>
+  </nav>
+
+  <!-- 2. MAIN HERO HEADER -->
+  <header class="hero-header">
+    <h1>TRENDING THIS WEEK</h1>
+    <p class="subtitle">The Top chart tells you what <strong>always</strong> wins. This one tells you what <strong>changed</strong>. Ranked by real downloads from the last seven days.</p>
+  </header>
+
+  <!-- 3. DASHBOARD MAIN GRID -->
+  <main class="dashboard-grid">
+    
+    <!-- Left Featured Card: "Sex, Secrets & Used Tech" -->
+    <section class="card-featured">
+      <div class="card-content">
+        <span class="tag">THE STORY OF THE WEEK</span>
+        <h2>Sex, Secrets & Used Tech</h2>
+        <p>Last week it sat at <strong>No.20</strong>. This week it is <strong>No.11</strong>, a jump of 9 places on <strong>10,329 downloads</strong>. The biggest move on the board.</p>
+        
+        <div class="card-stats">
+          <div class="rank-change">
+            <span class="old-rank">20</span>
+            <span class="arrow">&rarr;</span>
+            <span class="new-rank">11</span>
+          </div>
+          <span class="movement-label">&bull; 9 PLACES</span>
+          <a href="#" class="view-game">View game &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Column Card: "Grand Theft Auto V" -->
+    <section class="card-side">
+      <div class="card-content">
+        <span class="tag-gold">&#9733; STILL NO.1</span>
+        <h2>Grand Theft Auto V</h2>
+        <p class="downloads"><strong>42,028</strong> downloads this week</p>
+        <span class="badge-time">Unbeaten for 7 weeks</span>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
